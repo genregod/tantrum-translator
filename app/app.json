@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Tantrum Translator",
+    "slug": "tantrum-translator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#1a1033"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tantrumtranslator.app",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "The Tantrum Translator needs your microphone to record the young master's grievances for formal translation."
+      }
+    },
+    "android": {
+      "package": "com.tantrumtranslator.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#1a1033"
+      },
+      "permissions": ["RECORD_AUDIO"]
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      [
+        "expo-av",
+        {
+          "microphonePermission": "The Tantrum Translator needs your microphone to record the young master's grievances."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "00000000-0000-0000-0000-000000000000"
+      }
+    }
+  }
+}
