@@ -1,10 +1,9 @@
 node_modules/
-.env
-.env.local
 .expo/
 dist/
-web-build/
 *.log
 .DS_Store
-*.mp3
-!samples/*.mp3
+app/android/
+app/ios/
+android/
+ios/
