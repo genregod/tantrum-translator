@@ -1,6 +1,6 @@
 {
   "name": "tantrum-translator",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
@@ -18,7 +18,9 @@
     "expo-file-system": "~18.0.12",
     "expo-font": "~13.0.0",
     "expo-haptics": "~14.0.1",
+    "expo-in-app-purchases": "~0.10.0",
     "expo-linking": "~7.0.0",
+    "expo-sharing": "~13.0.1",
     "expo-speech": "~13.0.1",
     "expo-status-bar": "~2.0.0",
     "react": "18.3.1",
